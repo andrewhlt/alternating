@@ -1,0 +1,1 @@
+A single program that takes in a string and converts it to alternating uppercase and lowercase letters.
