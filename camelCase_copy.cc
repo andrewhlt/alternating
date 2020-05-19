@@ -9,16 +9,12 @@ void convertString(int stringID, char* argv) {
 
   size_t counter = 0; 
   for (size_t i = 0; i < stringToConvert.size(); i++) {
-    if (isalpha(stringToConvert[i])) {
-      // int probability = rand() % 10; 
-      // std::cout << probability << std::endl;
-      // if (probability < 8) {
+    if (isalpha(stringToConvert[i])) { 
         if (counter % 2 == 0) {
           stringToConvert[i] = tolower(stringToConvert[i]); 
         } else {
           stringToConvert[i] = toupper(stringToConvert[i]);
         }
-      // }
       counter++;
     }
   }
