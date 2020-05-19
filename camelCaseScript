@@ -1,0 +1,3 @@
+#!/bin/bash
+str="$*"
+./Documents/Class/CS106B/camelCaseCode/camelCase "$str" | pbcopy
